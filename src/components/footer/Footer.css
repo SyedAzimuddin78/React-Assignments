@@ -1,0 +1,27 @@
+.footer-links {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  gap: 0 20px;
+}
+.footer-links li {
+  list-style: none;
+}
+.copyright {
+  background-color: black;
+  color: #9f9696;
+}
+.footer-content {
+  padding-top: 30px;
+}
+@media only screen and (min-width: 992px) {
+  .footer-description p {
+    margin: 0 30% 1rem;
+  }
+}
+.footer {
+  background-color: #7e5656;
+  color: black;
+  margin-top: 30px;
+  opacity: 0.8;
+}
